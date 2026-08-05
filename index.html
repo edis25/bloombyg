@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom By G — İncek · Cafe, Patisserie &amp; Event</title>
+  <meta name="description" content="Bloom By G; benzersiz mutfağı, özgün patisserie seçkisi ve özel davetlere uyum sağlayan yaşam alanıyla İncek'te günün her saatine eşlik eden buluşma noktası." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css?v=2" />
+</head>
+<body>
+
+  <header class="site-header">
+    <button class="nav-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="header-nav">
+      <a href="#hikaye">Hikayemiz</a>
+      <a href="#davetler">Özel Davetler</a>
+      <a href="#deneyim">Bloom Deneyimi</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+    <a class="header-logo" href="#top">
+      <span class="header-logo__name">Bloom</span>
+    </a>
+    <div class="header-right"></div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO SLIDER ============ -->
+    <section class="hero-slider" aria-label="Tanıtım">
+
+      <!-- Slide 1 · masaüstünde yatay, mobilde dikey video oynar -->
+      <div class="hero-slide is-active">
+        <video class="hero-slide__media"
+          src="assets/video/slider-1.mp4"
+          poster="assets/img/bloom/slider-1-poster.jpg"
+          data-src-desktop="assets/video/slider-1.mp4"
+          data-src-mobile="assets/video/slider-1-mobile.mp4"
+          data-poster-desktop="assets/img/bloom/slider-1-poster.jpg"
+          data-poster-mobile="assets/img/bloom/slider-1-poster-mobile.jpg"
+          autoplay muted loop playsinline></video>
+        <div class="hero-slide__veil"></div>
+        <div class="hero-slide__caption">
+          <p class="hero-slide__kicker">Bloom By G · İncek</p>
+          <h1 class="hero-slide__title">Güzel şeyler burada açar.</h1>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="hero-slide">
+        <img class="hero-slide__media" src="assets/img/bloom/event-alani.jpg" alt="Bloom event ve organizasyon alanı" />
+        <div class="hero-slide__veil"></div>
+        <div class="hero-slide__caption">
+          <p class="hero-slide__kicker">Event &amp; Organizasyon</p>
+          <h2 class="hero-slide__title">Lezzetin, zarafetin ve güzel anların buluşma noktası.</h2>
+        </div>
+      </div>
+
+      <!-- Slide 3 · VİDEO GELECEK: dosyayı assets/video/slider-3.mp4 olarak ekleyin, otomatik oynar -->
+      <div class="hero-slide">
+        <video class="hero-slide__media" poster="assets/img/bloom/hero-lifestyle.jpg" autoplay muted loop playsinline>
+          <source src="assets/video/slider-3.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-slide__veil"></div>
+        <div class="hero-slide__caption">
+          <p class="hero-slide__kicker">Kahvaltıdan akşam yemeğine</p>
+          <h2 class="hero-slide__title">Her buluşma, bambaşka bir deneyim.</h2>
+        </div>
+      </div>
+
+      <button class="hero-arrow hero-arrow--prev" aria-label="Önceki">&#8592;</button>
+      <button class="hero-arrow hero-arrow--next" aria-label="Sonraki">&#8594;</button>
+      <div class="hero-dots" role="tablist"></div>
+    </section>
+
+    <!-- ============ BLOOM'UN HİKAYESİ ============ -->
+    <section class="story" id="hikaye">
+      <div class="story__inner">
+        <div class="story__media reveal">
+          <img src="assets/img/bloom/dis.jpg" alt="Bloom By G dış mekân ve bahçe girişi" loading="lazy" />
+        </div>
+        <div class="story__card reveal">
+          <p class="eyebrow">Bloom'un Hikayesi</p>
+          <h2 class="story__title">İncek'te günün her saatine eşlik eden özel bir buluşma noktası</h2>
+          <p>Bloom By G; benzersiz mutfağı, özgün patisserie seçkisi, özenli servis anlayışı ve farklı deneyimlere uyum sağlayan yaşam alanıyla İncek'te günün her saatine eşlik eden özel bir buluşma noktasıdır.</p>
+          <p>Kahvaltıdan öğle molasına, kahveden akşam yemeğine, dostlarla geçirilen anlardan özel davetlere kadar Bloom'da her deneyim özenle hazırlanır.</p>
+          <p class="story__accent">Çünkü Bloom'da yalnızca lezzetler değil; sohbetler, kutlamalar, fikirler ve güzel anılar da açar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ÖZEL DAVETLER ============ -->
+    <section class="events" id="davetler">
+      <div class="events__inner">
+        <div class="events__media reveal">
+          <img src="assets/img/bloom/event-alani-2.jpg" alt="Bloom'da özel davet için hazırlanmış çiçeklerle süslü uzun masa" loading="lazy" />
+        </div>
+        <div class="events__content reveal">
+          <p class="eyebrow eyebrow--light">Özel Davetler</p>
+          <h2 class="events__title">En özel anlarınız Bloom'da açsın</h2>
+          <p>Doğum günlerinden nişan ve söz organizasyonlarına, kurumsal buluşmalardan yaratıcı workshop'lara kadar her etkinliği size özel bir deneyime dönüştürüyoruz.</p>
+          <p>Mekân düzeninden menü planlamasına, kişiye özel pastalardan sunum detaylarına kadar bütün süreci Bloom'un zarif ve özenli yaklaşımıyla tasarlıyoruz.</p>
+          <p>Her davet farklıdır. Bu nedenle Bloom'da hazır paketler yerine, ihtiyacınıza ve hayalinizdeki atmosfere göre şekillenen kişisel çözümler sunulur.</p>
+          <ul class="events__list">
+            <li>Doğum günü ve özel kutlamalar</li>
+            <li>Nişan ve söz organizasyonları</li>
+            <li>Baby shower etkinlikleri</li>
+            <li>Bridal shower buluşmaları</li>
+            <li>Kurumsal toplantılar ve davetler</li>
+            <li>Lansman ve marka etkinlikleri</li>
+            <li>Workshop ve yaratıcı buluşmalar</li>
+            <li>Özel yemek organizasyonları</li>
+          </ul>
+          <a class="btn btn--outline-light" href="#iletisim">Davetinizi Planlayalım</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BLOOM DENEYİMİ ============ -->
+    <section class="experience" id="deneyim">
+      <div class="experience__intro reveal">
+        <p class="eyebrow">Bloom Deneyimi</p>
+        <h2 class="experience__title">Kendinizi iyi hissetmeniz için tasarlandı</h2>
+        <p>Bloom'da deneyim, yalnızca menüyle sınırlı değildir. Dengeli iç mekân tasarımı, günün farklı saatlerinde kullanılabilen bahçesi, rahat oturma alanları, özenli müzik seçimi ve servis anlayışıyla her ziyaretin doğal, konforlu ve hatırlanmaya değer olması amaçlanır.</p>
+        <p class="experience__accent">Kısa bir kahve molası, uzun bir brunch, çalışma buluşması ya da dostlarla geçirilen keyifli bir akşam… Bloom, her ziyaretinizde günün ritmine uyum sağlar.</p>
+      </div>
+      <div class="experience__grid">
+        <figure class="experience__item reveal">
+          <img src="assets/img/bloom/brunch-kahvalti.jpg" alt="Brunch ve kahvaltı tabakları" loading="lazy" />
+          <figcaption>Brunch &amp; Kahvaltı</figcaption>
+        </figure>
+        <figure class="experience__item reveal">
+          <img src="assets/img/bloom/ozel-pasta.jpg" alt="Kişiye özel tasarım pasta" loading="lazy" />
+          <figcaption>Özel Pasta Üretimi</figcaption>
+        </figure>
+        <figure class="experience__item reveal">
+          <img src="assets/img/bloom/mutfak-1.jpg" alt="Bloom mutfağından yemekler" loading="lazy" />
+          <figcaption>Mutfak &amp; Yemekler</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ GALERİ ============ -->
+    <section class="gallery" aria-label="Bloom'dan kareler">
+      <div class="gallery__track">
+        <img src="assets/img/bloom/galeri-macaron.jpg" alt="Makaron ve rulo pasta sunumu" loading="lazy" />
+        <img src="assets/img/bloom/galeri-icecek.jpg" alt="Ferah yaz içecekleri" loading="lazy" />
+        <img src="assets/img/bloom/galeri-tiramisu.jpg" alt="Tiramisu kupu" loading="lazy" />
+        <img src="assets/img/bloom/galeri-makarna.jpg" alt="Ev yapımı makarna" loading="lazy" />
+        <img src="assets/img/bloom/galeri-pasta.jpg" alt="Çiçeklerle süslenmiş özel pasta" loading="lazy" />
+        <img src="assets/img/bloom/galeri-kurabiye.jpg" alt="Cevizli kurabiye sunumu" loading="lazy" />
+        <img src="assets/img/bloom/galeri-dondurma.jpg" alt="Dondurma ve tatlı kupu" loading="lazy" />
+        <img src="assets/img/bloom/galeri-masa.jpg" alt="Mavi çiçekli davet masası" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ============ İLETİŞİM ============ -->
+    <section class="contact" id="iletisim">
+      <div class="contact__inner">
+        <div class="contact__content reveal">
+          <p class="eyebrow">İletişim</p>
+          <h2 class="contact__title">Bloom'da buluşalım</h2>
+          <p>Rezervasyon, özel pasta siparişi, etkinlik planlaması veya merak ettiğiniz diğer konular için bizimle iletişime geçebilirsiniz.</p>
+          <p>Sizi Bloom'un lezzetlerini ve atmosferini keşfetmeye davet ediyoruz.</p>
+          <div class="contact__details">
+            <p><span>Adres</span><a href="https://maps.app.goo.gl/Ha7m1uab48HqxMY66" target="_blank" rel="noopener">Beytepe Mah. 1759. Sok., İncek Şht. Savcı Mehmet Selim Kiraz Blv. No:15, 06800 Çankaya/Ankara</a></p>
+            <p><span>Telefon</span><a href="tel:+905308963039">0530 896 30 39</a></p>
+            <p><span>Instagram</span><a href="https://instagram.com/bloom.by.g" target="_blank" rel="noopener">@bloom.by.g</a></p>
+          </div>
+        </div>
+        <div class="contact__media reveal">
+          <img src="assets/img/bloom/tatli-vitrini.jpg" alt="Bloom tatlı vitrini" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo">
+      <span class="footer-logo__name">Bloom</span>
+    </div>
+    <div class="footer-links">
+      <a href="#hikaye">Hikayemiz</a>
+      <a href="#davetler">Özel Davetler</a>
+      <a href="#deneyim">Bloom Deneyimi</a>
+      <a href="#iletisim">İletişim</a>
+      <a href="https://instagram.com/bloom.by.g" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <div class="footer-legal">
+      <span>© 2026 Bloom By G · İncek, Ankara</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=3"></script>
+</body>
+</html>
