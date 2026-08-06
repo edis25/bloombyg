@@ -97,6 +97,21 @@ if (slider) {
   goTo(0);
 }
 
+// Galeri ok tuşları
+const galleryTrack = document.querySelector(".gallery__track");
+if (galleryTrack) {
+  const step = () => {
+    const img = galleryTrack.querySelector("img");
+    return img ? img.clientWidth + 18 : 320;
+  };
+  document.querySelector(".gallery-arrow--prev")?.addEventListener("click", () =>
+    galleryTrack.scrollBy({ left: -step() * 2, behavior: "smooth" })
+  );
+  document.querySelector(".gallery-arrow--next")?.addEventListener("click", () =>
+    galleryTrack.scrollBy({ left: step() * 2, behavior: "smooth" })
+  );
+}
+
 // Scroll reveal
 const observer = new IntersectionObserver(
   (entries) => {
