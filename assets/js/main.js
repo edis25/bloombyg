@@ -97,6 +97,20 @@ if (slider) {
   goTo(0);
 }
 
+// Özel Davetler videosu: görünür olunca yüklenip oynar (sayfa açılışını yavaşlatmasın)
+const eventsVideo = document.querySelector(".events__media video");
+if (eventsVideo) {
+  new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) eventsVideo.play().catch(() => {});
+        else eventsVideo.pause();
+      });
+    },
+    { threshold: 0.25 }
+  ).observe(eventsVideo);
+}
+
 // Galeri ok tuşları
 const galleryTrack = document.querySelector(".gallery__track");
 if (galleryTrack) {
