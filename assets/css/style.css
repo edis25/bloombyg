@@ -537,6 +537,7 @@ h1, h2, h3, h4 {
 /* ---------- Footer ---------- */
 
 .site-footer {
+  position: relative;
   border-top: 1px solid var(--line);
   padding: 56px 24px 46px;
   text-align: center;
@@ -577,6 +578,20 @@ h1, h2, h3, h4 {
 .footer-links a:hover { color: var(--gold); }
 
 .footer-legal { opacity: 0.7; }
+
+.footer-credit {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink-70);
+  opacity: 0.7;
+  transition: opacity 0.25s, color 0.25s;
+}
+
+.footer-credit:hover { opacity: 1; color: var(--gold); }
 
 /* ---------- Reveal ---------- */
 
@@ -660,4 +675,6 @@ h1, h2, h3, h4 {
 
   .contact__inner { padding: 60px 20px 70px; }
   .contact__title { font-size: 28px; }
+
+  .footer-credit { position: static; display: block; margin-top: 18px; }
 }
