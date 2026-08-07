@@ -1,0 +1,101 @@
+{
+    "slider": {
+        "slide1": {
+            "kicker": "Bloom By G · Beytepe",
+            "title": "Güzel şeyler burada açar.",
+            "video_desktop": "assets/video/slider-1.mp4",
+            "video_mobile": "assets/video/slider-1-mobile.mp4",
+            "poster_desktop": "assets/img/bloom/slider-1-poster.jpg",
+            "poster_mobile": "assets/img/bloom/slider-1-poster-mobile.jpg"
+        },
+        "slide2": {
+            "kicker": "Event & Organizasyon",
+            "title": "Lezzetin, zarafetin ve güzel anların buluşma noktası.",
+            "image": "assets/img/bloom/hero-salon.jpg"
+        },
+        "slide3": {
+            "kicker": "Kahvaltıdan akşam yemeğine",
+            "title": "Her buluşma, bambaşka bir deneyim.",
+            "image": "assets/img/bloom/hero-lifestyle.jpg"
+        }
+    },
+    "story": {
+        "eyebrow": "Bloom'un Hikayesi",
+        "title": "Beytepe'de günün her saatine eşlik eden özel bir buluşma noktası",
+        "p1": "Bloom By G; benzersiz mutfağı, özgün patisserie seçkisi, özenli servis anlayışı ve farklı deneyimlere uyum sağlayan yaşam alanıyla Beytepe'de günün her saatine eşlik eden özel bir buluşma noktasıdır.",
+        "p2": "Kahvaltıdan öğle molasına, kahveden akşam yemeğine, dostlarla geçirilen anlardan özel davetlere kadar Bloom'da her deneyim özenle hazırlanır.",
+        "accent": "Çünkü Bloom'da yalnızca lezzetler değil; sohbetler, kutlamalar, fikirler ve güzel anılar da açar.",
+        "image": "assets/img/bloom/dis.jpg"
+    },
+    "events": {
+        "eyebrow": "Özel Davetler",
+        "title": "En özel anlarınız Bloom'da açsın",
+        "p1": "Doğum günlerinden nişan ve söz organizasyonlarına, kurumsal buluşmalardan yaratıcı workshop'lara kadar her etkinliği size özel bir deneyime dönüştürüyoruz.",
+        "p2": "Mekân düzeninden menü planlamasına, kişiye özel pastalardan sunum detaylarına kadar bütün süreci Bloom'un zarif ve özenli yaklaşımıyla tasarlıyoruz.",
+        "p3": "Her davet farklıdır. Bu nedenle Bloom'da hazır paketler yerine, ihtiyacınıza ve hayalinizdeki atmosfere göre şekillenen kişisel çözümler sunulur.",
+        "list": [
+            "Doğum günü ve özel kutlamalar",
+            "Nişan ve söz organizasyonları",
+            "Baby shower etkinlikleri",
+            "Bridal shower buluşmaları",
+            "Kurumsal toplantılar ve davetler",
+            "Lansman ve marka etkinlikleri",
+            "Workshop ve yaratıcı buluşmalar",
+            "Özel yemek organizasyonları"
+        ],
+        "button": "Davetinizi Planlayalım",
+        "video": "assets/video/davetler.mp4",
+        "video_poster": "assets/img/bloom/davetler-poster.jpg"
+    },
+    "experience": {
+        "eyebrow": "Bloom Deneyimi",
+        "title": "Kendinizi iyi hissetmeniz için tasarlandı",
+        "p1": "Bloom'da deneyim, yalnızca menüyle sınırlı değildir. Dengeli iç mekân tasarımı, günün farklı saatlerinde kullanılabilen bahçesi, rahat oturma alanları, özenli müzik seçimi ve servis anlayışıyla her ziyaretin doğal, konforlu ve hatırlanmaya değer olması amaçlanır.",
+        "accent": "Kısa bir kahve molası, uzun bir brunch, çalışma buluşması ya da dostlarla geçirilen keyifli bir akşam… Bloom, her ziyaretinizde günün ritmine uyum sağlar.",
+        "cards": [
+            {
+                "caption": "Brunch & Kahvaltı",
+                "image": "assets/img/bloom/brunch-kahvalti-2.jpg"
+            },
+            {
+                "caption": "Özel Pasta Üretimi",
+                "image": "assets/img/bloom/ozel-pasta.jpg"
+            },
+            {
+                "caption": "Mutfak & Yemekler",
+                "image": "assets/img/bloom/mutfak-1.jpg"
+            }
+        ]
+    },
+    "gallery": [
+        "assets/img/bloom/galeri-macaron.jpg",
+        "assets/img/bloom/galeri-icecek.jpg",
+        "assets/img/bloom/galeri-tiramisu.jpg",
+        "assets/img/bloom/galeri-makarna.jpg",
+        "assets/img/bloom/galeri-pasta.jpg",
+        "assets/img/bloom/galeri-schnitzel.jpg",
+        "assets/img/bloom/galeri-kurabiye.jpg",
+        "assets/img/bloom/galeri-masa.jpg",
+        "assets/img/bloom/galeri-dondurma.jpg",
+        "assets/img/bloom/galeri-tatli-tabagi.jpg",
+        "assets/img/bloom/galeri-sufle.jpg",
+        "assets/img/bloom/galeri-icecek-2.jpg",
+        "assets/img/bloom/galeri-kurabiye-2.jpg",
+        "assets/img/bloom/galeri-davet-masasi.jpg",
+        "assets/img/bloom/salon-yuvarlak.jpg"
+    ],
+    "contact": {
+        "eyebrow": "İletişim",
+        "title": "Bloom'da buluşalım",
+        "p1": "Rezervasyon, özel pasta siparişi, etkinlik planlaması veya merak ettiğiniz diğer konular için bizimle iletişime geçebilirsiniz.",
+        "p2": "Sizi Bloom'un lezzetlerini ve atmosferini keşfetmeye davet ediyoruz.",
+        "address": "Beytepe Mah. 1759. Sok., İncek Şht. Savcı Mehmet Selim Kiraz Blv. No:15, 06800 Çankaya/Ankara",
+        "address_link": "https://maps.app.goo.gl/Ha7m1uab48HqxMY66",
+        "phone": "0530 896 30 39",
+        "instagram": "bloom.by.g",
+        "image": "assets/img/bloom/tatli-vitrini.jpg"
+    },
+    "footer": {
+        "copyright": "© 2026 Bloom By G · Beytepe, Ankara"
+    }
+}
